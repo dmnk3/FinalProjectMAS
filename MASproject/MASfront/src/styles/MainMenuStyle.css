@@ -1,0 +1,61 @@
+.divmain {
+    background-image: url("../images/3pbsevrqH5EZVMzMe5krK.jpg");
+    width: 1920px;
+    height: 1080px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    width: 80%;
+    max-width: 1200px;
+    z-index: 1;
+    background-color: lightgray;
+    height: 600px;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.grid-button {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.grid-button:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.grid-button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.h1mainmenu
+{
+    padding-bottom: 50px;
+}
