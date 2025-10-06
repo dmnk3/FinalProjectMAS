@@ -1,4 +1,4 @@
 # FinalProjectMAS
-Front: React
-Back: Java Spring Boot
-Database: H2 
+# Front: React
+# Back: Java Spring Boot
+# Database: H2 
